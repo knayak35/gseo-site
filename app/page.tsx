@@ -40,8 +40,8 @@ const navItems = [
 
 const stats = [
   ["Free", "Global access"],
-  ["43", "YouTube videos"],
-  ["11", "YouTube subscribers"],
+  ["40+", "YouTube videos"],
+  ["50+", "Educational Articles"],
   ["12+", "Eligible disciplines"],
 ];
 
