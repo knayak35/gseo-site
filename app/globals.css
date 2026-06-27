@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+.dark {
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background: #f7f7f4;
+  color: #111315;
+}
+
+.dark body {
+  background: #0d1012;
+  color: #f7f7f4;
+}
+
+::selection {
+  background: rgba(44, 111, 187, 0.22);
+}
+
+.grid-bg {
+  background-image:
+    linear-gradient(rgba(17, 19, 21, 0.07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(17, 19, 21, 0.07) 1px, transparent 1px);
+  background-size: 56px 56px;
+}
+
+.dark .grid-bg {
+  background-image:
+    linear-gradient(rgba(247, 247, 244, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(247, 247, 244, 0.08) 1px, transparent 1px);
+}
+
+.research-grid {
+  background-image:
+    linear-gradient(rgba(17, 19, 21, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(17, 19, 21, 0.08) 1px, transparent 1px);
+  background-size: 42px 42px;
+}
+
+.dark .research-grid {
+  background-image:
+    linear-gradient(rgba(247, 247, 244, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(247, 247, 244, 0.08) 1px, transparent 1px);
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.62);
+  border: 1px solid rgba(17, 19, 21, 0.1);
+  backdrop-filter: blur(24px);
+}
+
+.dark .glass {
+  background: rgba(18, 22, 25, 0.64);
+  border-color: rgba(247, 247, 244, 0.1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
