@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300" role="img" aria-label="Stress in Adolescents">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07111d"/><stop offset="1" stop-color="#172a3d"/></linearGradient><pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#fff" stroke-opacity=".065"/></pattern></defs>
+<rect width="500" height="300" fill="url(#bg)"/><rect width="500" height="300" fill="url(#grid)"/>
+<circle cx="430" cy="40" r="120" fill="#74b9ff" opacity=".09"/><circle cx="70" cy="280" r="130" fill="#74b9ff" opacity=".06"/>
+<path d="M 60 165 C 110 75 190 245 240 140 S 360 80 430 165" fill="none" stroke="#74b9ff" stroke-width="8" stroke-linecap="round"/><path d="M 60 165 C 110 75 190 245 240 140 S 360 80 430 165" fill="none" stroke="#fff" opacity=".18" stroke-width="22" stroke-linecap="round"/>
+<text x="28" y="42" fill="#fff" opacity=".55" font-family="Arial,sans-serif" font-size="12" letter-spacing="2">GSEO RESEARCH</text>
+<text x="28" y="270" fill="#fff" font-family="Arial,sans-serif" font-size="20" font-weight="700">Stress in Adolescents</text>
+</svg>
