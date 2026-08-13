@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="GSEO is a global student-led publication for original research, educational articles and academic interviews.">
+  <title>GSEO | Global Science Engineering Organization</title>
+  <link rel="icon" type="image/png" href="public/images/gseo-simple-logo-transparent.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="interview-enhancements.css">
+</head>
+<body>
+  <header class="nav" id="nav">
+    <a class="logo" href="#top"><img src="public/images/gseo-full-logo.png" alt="GSEO"></a>
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="#about">About</a><a href="#research">Research</a><a href="#articles">Articles</a><a href="#interviews">Interviews</a><a href="#team">Team</a>
+    </nav>
+    <a class="nav-cta" href="#join">Join GSEO</a>
+    <button class="menu-button" aria-label="Open menu" aria-expanded="false"><span></span><span></span></button>
+  </header>
+  <div class="mobile-menu" aria-hidden="true">
+    <nav><a href="#about">About</a><a href="#research">Research</a><a href="#articles">Articles</a><a href="#interviews">Interviews</a><a href="#team">Team</a><a href="#join">Join GSEO</a></nav>
+  </div>
+
+  <main id="top">
+    <section class="hero">
+      <img class="hero-image hero-frame active" src="public/images/campuses/mit.jpg" alt="Massachusetts Institute of Technology campus" data-campus="MIT / CAMBRIDGE">
+      <img class="hero-image hero-frame" src="public/images/campuses/harvard.jpg" alt="Harvard University campus" data-campus="HARVARD / CAMBRIDGE">
+      <img class="hero-image hero-frame" src="public/images/campuses/stanford.jpg" alt="Stanford University campus" data-campus="STANFORD / CALIFORNIA">
+      <img class="hero-image hero-frame" src="public/images/campuses/berkeley.jpg" alt="University of California, Berkeley campus" data-campus="UC BERKELEY / CALIFORNIA">
+      <img class="hero-image hero-frame" src="public/images/campuses/ucla.jpg" alt="University of California, Los Angeles campus" data-campus="UCLA / LOS ANGELES">
+      <div class="hero-shade"></div>
+      <div class="hero-content reveal">
+        <p class="eyebrow">Global Science Engineering Organization</p>
+        <h1>Research,<br>writing and ideas.<br><em>Built by students.</em></h1>
+        <div class="hero-bottom">
+          <p>A global student-led publication where ambitious high-school and university students publish research, explain difficult ideas and learn from scholars around the world.</p>
+          <a class="button light" href="#research">Explore research ↓</a>
+        </div>
+      </div>
+      <div class="campus-caption"><span class="campus-name">MIT / CAMBRIDGE</span><span class="campus-progress">01 / 05</span></div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-head reveal"><span>01 / About GSEO</span><p>Free, global and built around ambitious student research.</p></div>
+      <h2 class="display reveal">THE PUBLICATION<br>AMBITIOUS STUDENTS<br>READ AND <em>HELP BUILD.</em></h2>
+      <div class="split-copy reveal"><p>Our mission is to make high-quality student research and educational content freely accessible to learners worldwide.</p><p>Our vision is to become a leading global platform for student-led research, empowering young researchers to share knowledge, collaborate across borders and contribute meaningfully to education and innovation.</p></div>
+      <div class="values values-expanded">
+        <article class="reveal"><span>01</span><div><h3>Excellence</h3><p>We hold every publication to high standards of reasoning, evidence and communication. Students are encouraged to refine their questions, strengthen their methods and produce work they are genuinely proud to share.</p></div></article>
+        <article class="reveal"><span>02</span><div><h3>Accessibility</h3><p>Knowledge should be freely available to learners regardless of background or circumstance. We turn complex topics into clear resources and keep our work open to a global audience.</p></div></article>
+        <article class="reveal"><span>03</span><div><h3>Integrity</h3><p>Trust begins with honest research, transparent citations and responsible authorship. Contributors remain accountable for the accuracy, originality and ethical quality of everything they publish.</p></div></article>
+        <article class="reveal"><span>04</span><div><h3>Collaboration</h3><p>Better ideas emerge when people learn from one another. We connect students, educators and researchers across borders so that knowledge can be questioned, improved and shared.</p></div></article>
+        <article class="reveal"><span>05</span><div><h3>Curiosity</h3><p>Every meaningful project starts with a question. GSEO supports critical thinking, thoughtful exploration and the confidence to investigate ideas beyond the boundaries of a traditional classroom.</p></div></article>
+      </div>
+    </section>
+
+    <section class="section dark" id="research">
+      <div class="section-head reveal"><span>02 / Research Papers</span><p>Original student research built around questions, evidence, methodology, analysis and academic integrity.</p></div>
+      <h2 class="display reveal">ORIGINAL<br>STUDENT <em>RESEARCH.</em></h2>
+      <div class="paper-grid" id="paper-grid"></div>
+    </section>
+
+    <section class="section articles" id="articles">
+      <div class="section-head reveal"><span>03 / Educational Articles</span><p>Student writing that makes complex ideas accessible without oversimplifying them.</p></div>
+      <h2 class="display reveal">DIFFICULT IDEAS.<br><em>CLEARLY EXPLAINED.</em></h2>
+      <div class="article-list" id="article-list"></div>
+    </section>
+
+    <section class="section lavender" id="interviews">
+      <div class="section-head reveal"><span>04 / Interviews</span><p>University life, admissions, research, careers and the decisions behind ambitious academic paths.</p></div>
+      <h2 class="display reveal">LEARN FROM STUDENTS<br>WHO TOOK THE <em>NEXT STEP.</em></h2>
+      <div class="interview-grid" id="interview-grid"></div>
+    </section>
+
+    <section class="section categories" id="categories">
+      <div class="section-head reveal"><span>05 / What We Publish</span><p>A diverse range of academic and educational content designed to promote learning, research and intellectual discussion.</p></div>
+      <h2 class="display reveal">MORE THAN A<br><em>RESEARCH JOURNAL.</em></h2>
+      <div class="category-grid">
+        <article class="reveal"><span>01</span><h3>Research Papers</h3><p>Original scientific, engineering, computer-science, economic and social-science research demonstrating sound methodology and academic integrity.</p></article>
+        <article class="reveal"><span>02</span><h3>Educational Articles</h3><p>Accessible explanations of academic concepts, theories, discoveries and emerging developments.</p></article>
+        <article class="reveal"><span>03</span><h3>Interviews</h3><p>Conversations with students, teachers and researchers about university life, research, admissions and careers.</p></article>
+        <article class="reveal"><span>04</span><h3>Academic Guidance</h3><p>University applications, funding guides, research opportunities, career exploration and skill development.</p></article>
+        <article class="reveal"><span>05</span><h3>Perspectives</h3><p>Well-reasoned opinion and analysis covering technology, educational reform, economics and global affairs.</p></article>
+        <article class="reveal"><span>06</span><h3>Multimedia</h3><p>Infographics, educational videos, research summaries, webinars and concise academic content.</p></article>
+      </div>
+    </section>
+
+    <section class="section dark publish" id="join">
+      <div class="section-head reveal"><span>06 / Publish With GSEO</span><p>Turn curiosity into work the world can read.</p></div>
+      <h2 class="display reveal">YOUR NEXT QUESTION<br>COULD BECOME <em>PUBLISHED WORK.</em></h2>
+      <div class="process process-flow">
+        <article class="reveal"><span>STEP 01</span><div><h3>Prepare your contribution</h3><p>Begin with a clear question or idea, write in professional English and provide reliable references wherever they are needed.</p></div></article>
+        <article class="reveal"><span>STEP 02</span><div><h3>Submit original work</h3><p>Send work that reflects your own thinking and avoids plagiarism, fabricated data, manipulated citations or false authorship.</p></div></article>
+        <article class="reveal"><span>STEP 03</span><div><h3>Work with reviewers</h3><p>The Academic Division evaluates accuracy, clarity, relevance, methodology and citation practices, then provides focused feedback.</p></div></article>
+        <article class="reveal"><span>STEP 04</span><div><h3>Revise and publish</h3><p>Respond to revision requests, strengthen the final piece and publish it for a worldwide audience with full authorship credit.</p></div></article>
+      </div>
+      <div class="policy-grid">
+        <article class="reveal"><h3>Eligible disciplines</h3><p>Physics, chemistry, biology, mathematics, computer science and AI, engineering, finance, economics, international relations, psychology and mental health, environmental science, humanities and social sciences.</p></article>
+        <article class="reveal"><h3>AI usage policy</h3><p>AI may support brainstorming, editing and clarity, but authors must remain the primary creators, verify accuracy and accept full responsibility for published work.</p></article>
+        <article class="reveal"><h3>Author ownership</h3><p>Authors retain ownership of original work while granting GSEO permission to publish, distribute and promote it with full credit.</p></article>
+      </div>
+      <a class="button light" href="mailto:technology.gseo@gmail.com?subject=GSEO%20Submission">Start a submission ↗</a>
+    </section>
+
+    <section class="section team" id="team">
+      <div class="section-head reveal"><span>07 / Our Team</span><p>Meet the students developing GSEO across research, content, growth and technology.</p></div>
+      <h2 class="display reveal">THE PEOPLE<br>BUILDING <em>GSEO.</em></h2>
+      <div class="team-tabs reveal" role="tablist" aria-label="GSEO divisions"></div>
+      <div class="team-directory reveal"></div>
+    </section>
+
+    <section class="contact" id="contact">
+      <img class="contact-mark reveal" src="public/images/gseo-simple-logo-transparent.png" alt="GSEO globe mark">
+      <p class="eyebrow reveal">08 / Contact</p>
+      <h2 class="reveal">SHARE KNOWLEDGE OPENLY.<br><em>BUILD SCHOLARSHIP GLOBALLY.</em></h2>
+      <p class="contact-copy reveal">Submit research, contribute educational content, join a division or propose a collaboration.</p>
+      <div class="contact-actions reveal"><a class="button light" href="mailto:technology.gseo@gmail.com">Open email draft ↗</a><a class="button outline" href="mailto:technology.gseo@gmail.com?subject=Joining%20GSEO">Join our team</a></div>
+    </section>
+  </main>
+
+  <footer><div><img class="footer-mark" src="public/images/gseo-simple-logo-transparent.png" alt="GSEO"><p>Empowering researchers. Expanding futures.</p></div><div><a href="#research">Research</a><a href="#articles">Articles</a><a href="#interviews">Interviews</a><a href="#join">Join</a></div><div><span>© 2026 GSEO</span><a href="#top">Back to top ↑</a><a class="photo-credits" href="https://commons.wikimedia.org/" target="_blank" rel="noreferrer">Campus photo credits</a></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
